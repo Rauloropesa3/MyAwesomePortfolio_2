@@ -14,15 +14,15 @@
 <body>
 
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" id="navbar-brand" href="#">Raul Oropesa</a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light invisible">
+          <a class="navbar-brand visible" id="navbar-brand invisible" href="#">Raul Oropesa</a>
     <ul class="navbar-nav">
       <li class="nav-item active">
-          <a class="nav-link" href="index.html" style="color: gray"
+          <a class="nav-link visible" href="index.html" style="color: gray"
             >About <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-link visible" href="portfolio.html">Portfolio</a>
       </li>
       <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
@@ -30,21 +30,27 @@
     </ul>
   </nav>
  <section>
-    <div class="aboutMe">
-      <h2>About Me</h2> 
-      <hr style="border-width: 3px;">
-      <img src="./assets/20200103_073523.jpg" alt="picture of me">
-      <p class="card-text"> I was born is Los Angeles California in 1982, where i currently reside.
+    <div class="aboutMe invisible">
+      <h2 class="h2 visible">About Me</h2> 
+      <hr>
+      <img src="FB_IMG_1570478835170.jpg " class="myImg visible" alt="picture of me">
+      <p class="card-text visible"> I was born is Los Angeles California in 1982, where i currently reside.
              I'm of Cuban descent, my parents migrated here in 1980 from La Habana Cuba. My mother left 
              when i was a baby and my father past away when i was a teenager. Life has definately given me 
-             some difficult barriers to overcome. Fortunately for me i was able to find balance...</p>
-      <p>I love art! I'm able to draw with ball point pens. I can draw anything from Portraits to
+             some difficult barriers to overcome. Fortunately for me i was able to find balance...
+              I love art! I'm able to draw with ball point pens. I can draw anything from Portraits to
                cars and anything inbetween, i am also a certified tattoo Artist. I make car decals, custom 
                shirts, i'm very hands on. I build my own shelves, i install my own car dvr systems, and i 
                seldomly buy something pre-built. The most important detail that you can know about me is that
                i like to do things that are challenging.</p>
     </div>
   </section>
+  
+  <style>
+    body {
+      background-image: url('codeBackGround_2.jpg');
+    }
+    </style>
   <footer><p class="footer"> copywrite</p></footer>
 
 </body>
