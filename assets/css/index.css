@@ -2,9 +2,47 @@ body{
   background-size: cover;
 }
 
+.navbar-brand{
+  padding: 5px;
+  border-style: solid;
+  border-color: goldenrod;
+  border-radius: 5px;
+  text-shadow: goldenrod -6px 7px 2px;
+  margin-left: 75px;
+  font-size: 25px;
+}
+
+.nav-link{
+  padding: 8px;
+  border-style: solid;
+  border-color: goldenrod;
+  border-radius: 5px ;
+  text-shadow: goldenrod -6px 7px 2px;
+  font-size: 20px;
+}
+
 .card-text{
   color: turquoise;
   padding: 5px;
+}
+
+.copywrite{
+  text-align: center;
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 40px;
+color: powderblue;
+text-shadow: goldenrod -16px 12px 4px
+
+}
+
+.footer{
+ border-style: solid;
+ border-color: goldenrod;
+ padding: 5px;
+}
+
+
 }
 
 
@@ -13,43 +51,34 @@ body{
     width: 100%;
     padding: 0;
   }
+
   #navbar-brand {
-    background-color: teal;
     width: 30%;
-    color: salmon;
-    margin-left: 35px;
-    padding: 12px;
-    font-size: 20px;
+    margin-left: 30px;
+    padding: 10px;
+    font-size: 30px;
     text-align: center;
-    font-family: serif;
-    font-weight: 700;
   }
 
   .navbar-nav {
-    margin-right: 10px;
     text-align: right;
-    font-size: 12px;
     display: inline-block;
-    width: 30%;
+    width: 50%;
+    margin-right: 20px;
     padding: 0px;
+    font-size: 12px;
+    font-weight: 600;
   }
 
-  /* body {
-    background-color: lightgrey;
-  } */
 
-  ul li {
-    display: inline-block;
-    padding: 1.5%;
-  }
 
   section {
     width: 60%;
     height: 100%;
-    /* background-color: lightgray; */
     padding: 20px;
     padding-bottom: 400px;
   }
+
   .aboutMe {
     background-color: white;
     padding: 25px;
@@ -92,40 +121,51 @@ body{
     font-weight: 400;
     font-size: 20px;
   }
-  .footer {
-    font-weight: 400;
-    font-size: 20px;
-    background-color: lightslategray;
-    text-align: center;
-    padding: 5%;
-  }
+
+  
+ .copywrite{
+  text-align: center;
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 40px;
+color: powderblue;
+text-shadow: goldenrod -16px 12px 4px
+
+}
+.footer{
+ border-style: solid;
+ border-color: goldenrod;
+ padding: 5px;
+}
+
+
+  
+}
 
 @media screen and (max-width: 1350px) {
   .navbar-expand-lg {
     width: 100%;
     padding: 0;
   }
+
   #navbar-brand {
-    background-color: teal;
     width: 30%;
-    color: white;
-    margin-left: 35px;
-    padding: 12px;
-    font-size: 20px;
+    margin-left: 30px;
+    padding: 10px;
+    font-size: 30px;
     text-align: center;
-    font-family: serif;
-    font-weight: 700;
   }
 
   .navbar-nav {
-    margin-right: 10px;
     text-align: right;
-    font-size: 12px;
     display: inline-block;
-    width: 30%;
+    width: 50%;
+    margin-right: 20px;
     padding: 0px;
+    font-size: 12px;
+    font-weight: 600;
   }
-
+  
   ul li {
     display: inline-block;
     padding: 1.5%;
@@ -138,6 +178,7 @@ body{
     padding: 20px;
     padding-bottom: 400px;
   }
+
   .aboutMe {
     background-color: white;
     padding: 25px;
@@ -171,13 +212,25 @@ body{
     font-weight: 400;
     font-size: 13px;
   }
-  .footer {
-    font-weight: 400;
-    font-size: 20px;
-    background-color: lightslategray;
+
+  .copywrite{
     text-align: center;
-    padding: 5%;
-  }
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  color: powderblue;
+  text-shadow: goldenrod -16px 12px 4px
+
+}
+ .footer{
+   border-style: solid;
+   border-color: goldenrod;
+   padding: 5px;
+ }
+
+
+  
+  
 }
 
 @media screen and (max-width: 1200px) {
@@ -185,25 +238,23 @@ body{
     width: 100%;
     padding: 0;
   }
+
   #navbar-brand {
-    background-color: teal;
     width: 30%;
-    color: white;
-    margin-left: 35px;
-    padding: 12px;
-    font-size: 20px;
+    margin-left: 30px;
+    padding: 10px;
+    font-size: 30px;
     text-align: center;
-    font-family: serif;
-    font-weight: 700;
   }
 
   .navbar-nav {
-    margin-right: 10px;
     text-align: right;
-    font-size: 12px;
     display: inline-block;
-    width: 30%;
+    width: 50%;
+    margin-right: 20px;
     padding: 0px;
+    font-size: 12px;
+    font-weight: 600;
   }
 
   ul li {
@@ -218,6 +269,7 @@ body{
     padding: 20px;
     padding-bottom: 400px;
   }
+
   .aboutMe {
     background-color: white;
     padding: 25px;
@@ -250,13 +302,17 @@ body{
     font-weight: 400;
     font-size: 15px;
   }
-  .footer {
-    font-weight: 400;
-    font-size: 20px;
-    background-color: lightslategray;
-    text-align: center;
-    padding: 5%;
-  }
+
+ 
+ .footer{
+   border-style: solid;
+   border-color: goldenrod;
+   padding: 5px;
+ }
+
+
+  
+  
 }
 
 @media screen and (max-width: 980px) {
@@ -264,25 +320,23 @@ body{
     width: 100%;
     padding: 0;
   }
+
   #navbar-brand {
-    background-color: teal;
     width: 30%;
-    color: white;
-    margin-left: 35px;
-    padding: 12px;
-    font-size: 20px;
+    margin-left: 30px;
+    padding: 10px;
+    font-size: 30px;
     text-align: center;
-    font-family: serif;
-    font-weight: 700;
   }
 
   .navbar-nav {
-    margin-right: 10px;
     text-align: right;
-    font-size: 12px;
     display: inline-block;
-    width: 30%;
+    width: 50%;
+    margin-right: 20px;
     padding: 0px;
+    font-size: 12px;
+    font-weight: 600;
   }
 
   ul li {
@@ -325,35 +379,42 @@ body{
     font-weight: 400;
     font-size: 13px;
   }
-  .footer {
-    font-weight: 400;
-    font-size: 20px;
-    background-color: lightslategray;
+
+  footer{
+  
+    color: powderblue;
     text-align: center;
-    padding: 5%;
-  }
+    font-size: 15px;
+    padding: 2.5%;
 }
 
+}
+
+  
 @media screen and (max-width: 768px) {
   .navbar-expand-lg {
     width: 100%;
     padding: 0;
   }
+
   #navbar-brand {
-    background-color: teal;
     width: 30%;
-    color: white;
-    margin-left: 20px;
+    margin-left: 30px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
   }
 
   .navbar-nav {
     text-align: right;
+    display: inline-block;
     width: 50%;
+    margin-right: 20px;
     padding: 0px;
+    font-size: 12px;
+    font-weight: 600;
   }
+
 
   ul li {
     display: inline-block;
@@ -391,36 +452,42 @@ body{
     font-family: cursive;
     font-weight: 400;
   }
-  .footer {
-    font-weight: 400;
-    font-size: 20px;
-    background-color: lightslategray;
+
+  footer{
+  
+    color: powderblue;
     text-align: center;
-    padding: 4%;
-  }
+    font-size: 15px;
+    padding: 2.5%;
 }
+
+}
+  
 
 @media screen and (max-width: 640px) {
   .navbar-expand-lg {
     width: 100%;
     padding: 0;
   }
+
   #navbar-brand {
-    background-color: teal;
-    width: 100%;
-    color: white;
-    margin: 0;
-    padding: 15px;
-    font-size: 25px;
+    width: 30%;
+    margin-left: 30px;
+    padding: 10px;
+    font-size: 30px;
     text-align: center;
   }
 
   .navbar-nav {
-    text-align: center;
+    text-align: right;
     display: inline-block;
-    width: 100%;
-    font-size: 13px;
+    width: 50%;
+    margin-right: 20px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: 600;
   }
+
 
   ul li {
     display: inline-block;
@@ -456,38 +523,21 @@ body{
     font-weight: 400;
     margin: 10px;
   }
-  .footer {
-    font-weight: 400;
-    font-size: 20px;
-    background-color: lightslategray;
-    margin: 0px;
-    width: 100%;
+  
+  footer{
+  
+    color: powderblue;
     text-align: center;
-    padding: 5%;
-  }
+    font-size: 15px;
+    padding: 2.5%;
 }
 
-@media screen and (max-width: 480px) {
-  .navbar-expand-lg {
-    width: 100%;
-    padding: 0;
-  }
-  #navbar-brand {
-    background-color: teal;
-    width: 100%;
-    color: white;
-    margin: 0;
-    padding: 15px;
-    font-size: 25px;
-    text-align: center;
-  }
+}
 
-  .navbar-nav {
-    text-align: center;
-    display: inline-block;
-    width: 100%;
-    font-size: 13px;
-  }
+
+
+@media screen and (max-width: 480px) {
+  
 
   ul li {
     display: inline-block;
@@ -523,39 +573,21 @@ body{
     font-weight: 400;
     margin: 10px;
   }
-  .footer {
-    font-weight: 400;
-    font-size: 20px;
-    background-color: lightslategray;
-    margin: 0px;
-    width: 100%;
+
+  footer{
+  
+    color: powderblue;
     text-align: center;
-    padding: 5%;
-  }
+    font-size: 15px;
+    padding: 2.5%;
 }
 
+}
+
+
+
 @media screen and (max-width: 300px) {
-  .navbar-expand-lg {
-    width: 100%;
-    padding: 0;
-  }
-  #navbar-brand {
-    background-color: teal;
-    width: 100%;
-    color: white;
-    margin: 0;
-    padding: 15px;
-    font-size: 25px;
-    text-align: center;
-  }
-
-  .navbar-nav {
-    text-align: center;
-    display: inline-block;
-    width: 100%;
-    font-size: 13px;
-  }
-
+  
   ul li {
     display: inline-block;
     padding: 1%;
@@ -590,13 +622,14 @@ body{
     font-weight: 400;
     margin: 10px;
   }
-  .footer {
-    font-weight: 400;
-    font-size: 20px;
-    background-color: lightslategray;
-    margin: 0px;
-    width: 100%;
+
+  footer{
+  
+    color: powderblue;
     text-align: center;
-    padding: 5%;
-  }
+    font-size: 15px;
+    padding: 2.5%;
+}
+
+  
 }
