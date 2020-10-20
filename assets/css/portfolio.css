@@ -415,7 +415,7 @@
     width: 100%;
   }
 
-  .portfolio {
+  /* .portfolio {
     font-family: serif;
     font-weight: 900;
     font-size: 40px;
@@ -425,7 +425,7 @@
     background-color: white;
     width: 75%;
     height: 1250px;
-  }
+  } */
 
   .card{
     border-style: solid;
@@ -449,7 +449,7 @@
     position: absolute;
   }
 
-  .card-text {
+  /* .card-text {
     position: absolute;
     background-color:transparent;
     color: teal;
@@ -461,7 +461,7 @@
     margin-left: -20px;
     transform: translateX(130px);
     transform: translateY(130px);
-  }
+  } */
 
   footer {
     background-color: slategray;
@@ -529,7 +529,7 @@
     width: 100%;
     position: absolute;
   }
-  .card-text {
+  /* .card-text {
     position: absolute;
     background-color: transparent;
     color: teal
@@ -541,7 +541,7 @@
     margin-left: -20px;
     transform: translateX(130px);
     transform: translateY(130px);
-  }
+  } */
   footer {
     text-align: center;
     background-color: dimgrey;
