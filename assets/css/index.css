@@ -22,8 +22,14 @@ body{
 }
 
 .card-text{
+  text-align: center;
+  position: relative;
   color: turquoise;
   padding: 5px;
+}
+
+img.myImg{
+  object-position: right;
 }
 
 .copywrite{
