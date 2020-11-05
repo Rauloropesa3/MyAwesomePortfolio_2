@@ -49,9 +49,6 @@ text-shadow: goldenrod -16px 12px 4px
 }
 
 
-}
-
-
 @media screen and (max-width: 1600px) {
   .navbar-expand-lg {
     width: 100%;
