@@ -27,6 +27,14 @@ body{
   color: turquoise;
   padding: 5px;
 }
+.github{
+  font-weight: bolder;
+}
+
+.linkedIn{
+  margin-left: 10px;
+  font-weight: bolder;
+}
 
 img.myImg{
   object-position: right;
