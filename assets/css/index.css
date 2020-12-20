@@ -32,8 +32,13 @@ body{
 }
 
 .linkedIn{
-  margin-left: 10px;
   font-weight: bolder;
+  margin-left: 10px;
+}
+
+.myResume{
+  font-weight: bolder;
+  margin-left: 10px;
 }
 
 img.myImg{
